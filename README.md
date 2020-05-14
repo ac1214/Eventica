@@ -1,5 +1,7 @@
 # Eventica
 
+![Screenshot](Images/screenshot_1.png)  
+
 Course: SENG 513
 
 Project: Eventica
@@ -7,6 +9,9 @@ Project: Eventica
 Group Members: Albert, Satyaki, James, Brian, Sadat, Andy
 
 Date: Winter 2020
+
+The deployed applcation can be viewed here: [https://seng-513.web.app/](https://seng-513.web.app/)
+
 
 ## About
 
