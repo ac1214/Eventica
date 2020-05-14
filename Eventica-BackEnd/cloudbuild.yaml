@@ -1,0 +1,12 @@
+steps:
+  # Install
+  - name: 'gcr.io/cloud-builders/npm'
+    args: ['ci']
+  # Build
+  - name: 'gcr.io/cloud-builders/npm'
+    args: ['run', 'build']
+  # Deploy
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args: ['app', 'deploy']
+    dir: 'build'
+timeout: '900s'

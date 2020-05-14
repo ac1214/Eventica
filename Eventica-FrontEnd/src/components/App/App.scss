@@ -1,0 +1,116 @@
+body {
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+    Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+    monospace;
+
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scrollbar-width: thin;
+
+  *::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  *::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background-color: #f4f5f7;
+  }
+
+  *::-webkit-scrollbar-track {
+    background-color: #000000;
+  }
+
+  *::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+
+  font-family: Poppins, sans-serif;
+
+  .MuiPickersToolbar-toolbar,
+  .MuiPickerDTTabs-tabs,
+  .MuiPickersCalendarHeader-iconButton,
+  .MuiPopover-paper,
+  .MuiAutocomplete-paper {
+    background-color: #212529; // DARK
+  }
+
+  .MuiDialog-paper,
+  .MuiPickersBasePicker-pickerView,
+  .MuiPickersModal-withAdditionalAction {
+    background-color: #27293d; // CARD_BG
+  }
+
+  .MuiDialog-paper {
+    overflow-x: hidden;
+  }
+
+  .MuiInputBase-input {
+    text-overflow: ellipsis;
+  }
+
+  .MuiSlider-valueLabel {
+    color: #000000; // DARKER
+  }
+
+  .MuiChip-deleteIcon {
+    &:hover {
+      color: #f4f5f7; // SECONDARY
+    }
+  }
+
+  .MuiChip-root {
+    text-transform: lowercase;
+    font-weight: 600;
+    background-color: #000000; // DARKER
+    color: #f4f5f7; // SECONDARY
+  }
+
+  .MuiPickersSlideTransition-transitionContainer,
+  .MuiPickersCalendarHeader-daysHeader,
+  .MuiTypography-root {
+    user-select: none;
+  }
+
+  .StripeElement {
+    padding: 15px 10px;
+    box-shadow: rgba(50, 50, 93, 0.14902) 0 1px 3px, rgba(0, 0, 0, 0.0196078) 0 1px 0;
+    border-radius: 5px;
+    background: #f4f5f7;
+    text-transform: lowercase;
+  }
+
+  .MuiFormHelperText-contained {
+    user-select: none;
+  }
+
+  .MuiPickersClockNumber-clockNumber {
+    color: #f4f5f7; // SECONDARY
+  }
+}
+
+main {
+  max-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
